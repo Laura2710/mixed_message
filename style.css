@@ -21,13 +21,14 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 32px auto;
+    margin: 0 auto;
+    width: 60%;
+
 }
 
 /* Styles pour le message */
-#msg {
+p {
     font-size: 1.5rem;
-    width: 60%;
     text-align: center;
     margin-top: 32px;
     margin-bottom: 32px;
@@ -51,11 +52,23 @@ em {
     cursor: pointer;
     font-size: 1.25rem;
     transition: background-color 0.3s ease;
-    margin-top: 16px;
-    /* Espacement du bouton */
 }
 
 /* Styles pour le bouton au survol */
 #generateButton:hover {
     background-color: #428ec0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
 }
